@@ -1,0 +1,64 @@
+Week 0 - Lesson 1
+=====================================
+
+Computer science is really just solving problems. 
+
+input => [ -computer science- ] => output.
+
+Computer language = binary. 1's and 0's.
+
+123. 
+Right most digit is the 1's column, then 10's then hundreds place.
+Could break it down as
+100 x 1 + 10 x 2 + 1 x 3. = 123.
+
+In computer world you only have two digits. 1 and 0.
+
+So each number's place is not 10 raised to a power. 
+It's 
+
+4   2   1
+========= 
+0   0   0
+
+raised to powers of 2.
+
+000 = 0
+001 = 1
+010 = 2
+011 = 3
+100 = 4
+101 = 5
+110 = 6
+111 = 7
+1000 = 8
+etc.
+
+each 1 or 0 is a bit. 
+0 and 1, off and on, true and false. All bits.
+
+More zeros and ones? More bits!
+
+a byte = 8 bits.
+128 64 32 16 8 4 2 1
+===================
+0   0  0  0 0 0 0 0
+
+Transistors are tiny switches, just like binary. 
+It would turn on 3 to store the number 50.
+
+
+How with millions of switches, would we represent the letter A. 
+
+Same idea. But the world determined the rules using ASCII.
+A = 65, 64 bit and 1 bit set to true.
+01000001
+
+Emojis use unicode characters which is which ASCII uses 8 bits, but unicode can use 8, 16, 24, 32.
+
+How do imojis convert from bits and bytes to images?
+
+RGB - a mix of pixels and colors.
+You're storing 3 values for any pixel. 
+
+Algorythim - a set way to do something. Step by step instructions for solving a problem.
